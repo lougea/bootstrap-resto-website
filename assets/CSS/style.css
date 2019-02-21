@@ -1,0 +1,347 @@
+
+/***************************************************ANIMATIONS*****************************************************************/
+@-webkit-keyframes anim { /* Safari, Opera, Chrome */
+    0% {
+        transform: translateX(-100px);
+    }
+
+    50% {
+        transform: translateX(-75px);
+    }
+
+    75% {
+        transform: translateX(-50px) ;
+    }
+
+    100% {
+        transform: translateX(0px) ;
+    }
+}
+
+@keyframes anim { /* Tous les autres navigateurs */
+  0% {
+      transform: translateX(-100px);
+  }
+
+  50% {
+      transform: translateX(-50px);
+  }
+
+  100% {
+      transform: translateX(0px) ;
+  }
+}
+
+
+
+@-webkit-keyframes boxanim { /* Safari, Opera, Chrome */
+  0% {
+      transform: translateX(900px);
+  }
+
+  100% {
+      transform: translateX(0px) ;
+  }
+}
+@keyframes boxanim  { /* Tous les autres navigateurs */
+    0% {
+        transform: translateX(900px);
+    }
+
+    100% {
+        transform: translateX(0px) ;
+    }
+}
+
+/***************************************************Main*****************************************************************/
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;
+};
+
+body{
+
+}
+
+.navbar {
+  font-family: 'Cinzel Decorative', cursive;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.logo{  -webkit-animation: anim 4s; /* Safari, Opera, Chrome */
+      animation: anim 4s; /* Tous les autres navigateurs */
+
+}
+/***************************************************Section 1*****************************************************************/
+.jumbotron {
+  background-image: url('../img/bmk-paris-bamako.jpg');
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+
+.pjumbotron {
+font-size: 1.5em;
+  color:  black;
+}
+
+.jumbotron2 {
+
+  background-color: hsla(57, 96%, 93%, 0.66);
+  margin :8% 15%;
+  padding: 10px;
+  position: absolute;
+}
+
+.btn-primary {
+  background-color: #079445;
+}
+
+.commander {
+  color: white;
+  background-color: #079445;
+}
+
+.commander:hover{
+  background-color: grey;
+}
+.titre1{
+  color: #fd0402;
+}
+
+
+/***************************************************Section 2 - Etapes*****************************************************************/
+.aetape {
+  margin-top: 50px;
+}
+
+.etapes{
+background-color: white;
+height: 150px;
+}
+
+.icons {
+  position: static;
+  height: 300px;
+  width: 100%;
+}
+
+
+#icon1 {
+  -webkit-animation: boxanim 6s; /* Safari, Opera, Chrome */
+      animation: boxanim 6s; /* Tous les autres navigateurs */
+      height:250px;
+}
+#icon2 {
+  -webkit-animation: boxanim 8s; /* Safari, Opera, Chrome */
+      animation: boxanim 8s; /* Tous les autres navigateurs */
+        height:250px;
+}
+
+#icon3 {
+  -webkit-animation: boxanim 10s; /* Safari, Opera, Chrome */
+      animation: boxanim 10s; /* Tous les autres navigateurs */
+        height:250px;
+}
+/***************************************************section 3 - lien menus*****************************************************************/
+
+.transparent {
+  background-image: url('../img/blurred-background-bowl-cook-1590139.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+
+}
+
+a {
+  text-decoration: none !important;
+  color : white;
+}
+
+.restaurant {
+  height:400px;
+}
+
+.restaurants {
+  margin-top: 200px;
+  padding: 30px;
+
+}
+
+
+#restau1{
+background-color:hsla(190, 0%, 27%, 0.76);
+height: 200px ;
+padding: 20%;
+}
+
+#restau2 {
+  height:200px ;
+background-color:hsla(190, 0%, 27%, 0.76);
+padding: 20%;
+}
+
+#restau3{
+
+height: 200px ;
+background-color:hsla(190, 0%, 27%, 0.76);
+padding: 20%;
+}
+
+.carte{
+  height: 200px ;
+  background-color:hsla(190, 0%, 27%, 0.76);
+  padding: 6%;
+}
+
+#restau1:hover{
+background-color:hsla(0, 72%, 41%, 0.53);
+border: 2px ;
+border-radius:10px;
+padding: 15%;
+color : white;
+}
+
+ #restau2:hover{
+
+background-color:hsla(0, 72%, 41%, 0.53);
+border: 2px ;
+border-radius:10px;
+padding: 15%;
+color : white;
+}
+
+#restau3:hover{
+
+  background-color: hsla(0, 72%, 41%, 0.53);
+  border: 2px ;
+border-radius:10px;
+padding: 15%;
+color : white;
+}
+
+.carte:hover{
+background-color:hsla(0, 72%, 41%, 0.53);
+border: 2px ;
+border-radius:10px;
+padding: 4%;
+color : white;
+}
+
+.aetape img {
+  width: 200px;
+  height: 150px;
+  border-radius:10px;
+}
+/*******************************Section contact - index.html***************************/
+#end{
+  color : #079445;
+  margin: 5%;
+}
+
+/***************************************************Contact*****************************************************************/
+
+/*Contact sectiom*/
+.content-header{
+font-family: 'Teko', sans-serif;
+  color:#fff;
+  font-size: 50px;
+}
+
+.section-content{
+  text-align: center;
+
+}
+#contact{
+
+  font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 900px;
+  background: #fd0402; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fd0402 , #079445); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left,#446f56 , #079445)
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: ;
+  color: #fff;
+
+}
+
+/***************************************************MENUS*****************************************************************/
+.one{
+  font-size: 18px;
+  font-weight :bold;
+}
+
+.carteM {
+margin-top: 110px;
+
+}
+ .blocC .blocB {
+margin-bottom: 100px;
+margin-top: 200px;
+position:fixed;
+
+}
+
+
+.blocA{
+
+min-height: 400px;
+}
+.active {
+  color : grey;
+}
+
+#list-boisson {
+display: none;
+}
+
+/***************************************************CONTACT*****************************************************************/
+.infos {
+  margin-top: ;
+}
+
+.jaune {
+  width: 300px;
+  height: 30px;
+}
+
+/***************************************************PHOTOS*****************************************************************/
+
+
+/***************************************************presentation*****************************************************************/
