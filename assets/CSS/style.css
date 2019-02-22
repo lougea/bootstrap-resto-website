@@ -57,10 +57,6 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;
 };
 
-body{
-
-}
-
 .navbar {
   font-family: 'Cinzel Decorative', cursive;
     font-size: 25px;
@@ -73,7 +69,7 @@ body{
 }
 /***************************************************Section 1*****************************************************************/
 .jumbotron {
-  background-image: url('../img/bmk-paris-bamako.jpg');
+  background-image: url('../img/retouche2.svg');
   position: relative;
   width: 100%;
   height: 900px;
@@ -107,7 +103,6 @@ font-size: 1.5em;
 .titre1{
   color: #fd0402;
 }
-
 
 /***************************************************Section 2 - Etapes*****************************************************************/
 .aetape {
@@ -145,7 +140,7 @@ height: 150px;
 /***************************************************section 3 - lien menus*****************************************************************/
 
 .transparent {
-  background-image: url('../img/blurred-background-bowl-cook-1590139.jpg');
+  background-image: url('../img/retouche1.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -315,12 +310,10 @@ margin-top: 110px;
 margin-bottom: 100px;
 margin-top: 200px;
 position:fixed;
-
 }
 
 
 .blocA{
-
 min-height: 400px;
 }
 .active {
