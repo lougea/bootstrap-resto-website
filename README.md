@@ -6,7 +6,6 @@ Mon premier site en bootstrap
 
 Un site pour une chaîne fictive de bars à cafés, en hommage à mes nombreuses heures passées chez leurs cousins réels ;-)
 
-
 ## Date :
 
 Réalisé entre le 18 et le 21 février 2019 en tant que stagiaire @ BeCode
@@ -23,7 +22,7 @@ Bootstrap
 
 ## Progression :
 
-Projet terminé
+Projet terminé, reste à revoir les performances lighthouse
 
 ## Liens utiles :
 
@@ -33,7 +32,7 @@ lien github page : <https://lougea.github.io/bootstrap-resto-website/>
 
 ## Aperçu du site :
 
-![Apercu du site](assets/img/capturemeetmeforcoffee.png)
+<https://lougea.github.io/bootstrap-resto-website/>
 
 ## Crédits photos :
 
