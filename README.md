@@ -1,51 +1,47 @@
 # bootstrap-resto-website
 
-bootstrap-resto-website
-
 Mon premier site en bootstrap
-Description :
 
-Un site pour une chaîne fictive de nourriture Africaine.
-Date :
+## Description :
+
+Un site pour une chaîne fictive de bars à cafés, en hommage à mes nombreuses heures passées chez leurs cousins réels ;-)
+
+
+## Date :
 
 Réalisé entre le 18 et le 21 février 2019 en tant que stagiaire @ BeCode
-Langages utilisés :
 
-    HTML
-    CSS
-    JAVASCRIPT
+## Langages utilisés :
 
-Framework utilisé :
++ HTML
++ CSS
++ JAVASCRIPT
+
+## Framework utilisé :
 
 Bootstrap
-Progression :
+
+## Progression :
 
 Projet terminé
-Liens utiles :
 
-lien des consignes : https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap
+## Liens utiles :
 
-lien github page : 
+lien des consignes : <https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap>
 
-Apercu du site
-Crédits photos :
+lien github page : <https://lougea.github.io/bootstrap-resto-website/>
 
-Toutes les pĥotos viennent du site Unsplash : https://unsplash.com/search/photos/coffee. Voici la liste des photographes:
+## Aperçu du site :
 
-    Alexander Gilbertson
+![Apercu du site](assets/img/capturemeetmeforcoffee.png)
 
-    Don Ross III
+## Crédits photos :
 
-    Tyler Nix
+Toutes les pĥotos viennent du site Unsplash : <https://unsplash.com/search/photos/coffee>. Voici la liste des photographes:
 
-    Clem Onojeghuo
++ Alexander Gilbertson
 
-    Hannah Wei
++ Don Ross III
 
-    freestocks.org
 
-    Robert Bye
 
-    Jonathan Pielmayer
-
-  
